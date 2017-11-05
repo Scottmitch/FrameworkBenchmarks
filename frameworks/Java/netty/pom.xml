@@ -8,7 +8,7 @@
 	<version>0.1</version>
 
 	<properties>
-		<netty.version>4.1.16.Final</netty.version>
+		<netty.version>4.1.17.Final</netty.version>
 	</properties>
 
 	<packaging>jar</packaging>
@@ -36,14 +36,14 @@
 		</dependency>
 
 		<dependency>
-			<groupId>com.fasterxml.jackson.module</groupId>
-			<artifactId>jackson-module-afterburner</artifactId>
+			<groupId>com.fasterxml.jackson.core</groupId>
+			<artifactId>jackson-databind</artifactId>
 			<version>RELEASE</version>
 		</dependency>
 
 		<dependency>
-			<groupId>javassist</groupId>
-			<artifactId>javassist</artifactId>
+			<groupId>com.fasterxml.jackson.module</groupId>
+			<artifactId>jackson-module-afterburner</artifactId>
 			<version>RELEASE</version>
 		</dependency>
 
